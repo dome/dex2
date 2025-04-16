@@ -1,0 +1,17 @@
+{
+  "name": "@icecreamswap/staking",
+  "version": "2.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deployStakingPool": "npx hardhat run scripts/deployStakingPool.ts",
+    "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@icecreamswap/common": "*"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.4.2"
+  }
+}
