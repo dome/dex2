@@ -61,11 +61,11 @@ export const bridgeConfig: BridgeConfig = {
 };
 
 export const dexConfig = {
-  dexAdmin: "0x0075C169d8887F902cF881fEdC26AD0EbC7c8c19",
-  feeCollector: "0x2Bfd1fc5e25a8F55C2E849492ad7966EA8A0dd9E",
+  dexAdmin: "0x5266Dfa5ae013674f8FdC832b7c601B838D94eE6",
+  feeCollector: "0x5266Dfa5ae013674f8FdC832b7c601B838D94eE6",
 } as const;
 
 export const farmConfig = {
-  farmAdmin: "0x0075C169d8887F902cF881fEdC26AD0EbC7c8c19",
-  iceTreasury: "0x0075C169d8887F902cF881fEdC26AD0EbC7c8c19",
+  farmAdmin: "0x5266Dfa5ae013674f8FdC832b7c601B838D94eE6",
+  iceTreasury: "0x5266Dfa5ae013674f8FdC832b7c601B838D94eE6",
 } as const;
