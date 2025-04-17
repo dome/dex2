@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://icecreamswap.com">
-      <img src="https://mermaidswapxyz.com/logo.png" height="128">
+      <img src="https://usdog.fi/logo.png" height="128">
   </a>
 </p>
 
