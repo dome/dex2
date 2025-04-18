@@ -1,10 +1,10 @@
 import { TranslateFunction } from '@pancakeswap/localization'
 import { SalesSectionProps } from '.'
-import iceConeA from '../../../../../public/images/home/trade/iceconea.png'
-import iceConeB from '../../../../../public/images/home/trade/iceconeb.png'
+import iceConeA from '../../../../../public/images/home/trade/usdog_defi_3.jpeg'
+import iceConeB from '../../../../../public/images/home/trade/usdog_defi_5.jpeg'
 import bridgeA from '../../../../../public/images/home/bridge/bridge_a.png'
 import bridgeB from '../../../../../public/images/home/bridge/bridge_b.png'
-import earnIce from '../../../../../public/images/home/earn/ice.png'
+import earnIce from '../../../../../public/images/home/earn/usdog_defi_4.jpeg'
 
 export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('Trade any token at the best rate'),
@@ -19,7 +19,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://wiki.icecreamswap.com/dex/swap',
+    to: '#',
     text: t('Learn'),
     external: true,
   },
@@ -46,7 +46,7 @@ export const bridgeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://wiki.icecreamswap.com/dex/bridge',
+    to: '#',
     text: t('Learn'),
     external: true,
   },
@@ -71,7 +71,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://wiki.icecreamswap.com/dex/farm',
+    to: '#',
     text: t('Learn'),
     external: true,
   },
@@ -82,7 +82,7 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const stakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('Stake. Earn Profit Sharing from MermaidSwap Games'),
+  headingText: t('Stake. Earn Profit Sharing from USDog Games'),
   bodyText: t(
     'Not only do you earn trading fees by providing liquidity, but with Liquidity Farms, you can also earn TRI tokens on top.',
   ),
@@ -93,7 +93,7 @@ export const stakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
     external: false,
   },
   secondaryButton: {
-    to: 'https://wiki.icecreamswap.com/dex/staking',
+    to: '#',
     text: t('Learn'),
     external: true,
   },

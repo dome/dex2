@@ -1,6 +1,6 @@
 import { ChainId } from '@pancakeswap/sdk'
 
-export const PANCAKE_EXTENDED = 'https://tokens.pancakeswap.finance/pancakeswap-extended.json'
+export const PANCAKE_EXTENDED = 'https://raw.githubusercontent.com/dome/asset/refs/heads/main/usdog.json'
 export const PANCAKE_BSC_MM = 'https://tokens.pancakeswap.finance/pancakeswap-bnb-mm.json'
 
 // List of official tokens list
@@ -21,6 +21,9 @@ export const MULTI_CHAIN_LIST_URLS: { [chainId: number]: string[] } = {
     'https://static.optimism.io/optimism.tokenlist.json',
     'https://tokens.coingecko.com/base/all.json'
   ],
+  [ChainId.TCH]: [
+    PANCAKE_EXTENDED,
+  ]
 }
 
 export const UNSUPPORTED_LIST_URLS: string[] = []

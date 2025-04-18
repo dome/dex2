@@ -52,8 +52,8 @@ const UsAgreement = () => {
           <Text as="span">(i) Is in the following Pancake Swap token lists</Text>
           <Text as="p">
             BNB Smart Chain:
-            <Link href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-extended.json">
-              https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-extended.json
+            <Link href="https://tokenlists.org/token-list?url=https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/tokens.json">
+              https://tokenlists.org/token-list?url=https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/tokens.json
             </Link>
           </Text>
           <Text as="p">

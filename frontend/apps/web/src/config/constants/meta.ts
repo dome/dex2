@@ -3,9 +3,9 @@ import { ContextApi } from '@pancakeswap/localization'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'MermaidSwap - Gaming and Rewards DeFi',
+  title: 'USDog - Gaming and Rewards DeFi',
   description:
-    'MermaidSwap combines a decentralized exchange(DEX), fun games, and profit-sharing to revolutionize DeFi on KAIA.',
+    'USDog combines a decentralized exchange(DEX), fun games, and profit-sharing to revolutionize DeFi.',
   image: '/images/icecreamswap.png',
 }
 
@@ -36,7 +36,7 @@ const getPathList = (t: ContextApi['t']): PathList => {
           'Transfer tokens between multiple Chains including Core, Bitgert, Binance, XDC, Fuse and may more on IceCreamSwap DEX.',
       },
     },
-    defaultTitleSuffix: t('MermaidSwap'),
+    defaultTitleSuffix: t('USDog'),
   }
 }
 

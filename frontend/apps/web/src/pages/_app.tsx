@@ -84,17 +84,17 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         />
         <meta
           name="description"
-          content="MermaidSwap combines a Decentralized Exchange(DEX), fun games, and profit-sharing to revolutionize DeFi on KAIA."
+          content="USDog combines a Decentralized Exchange(DEX), fun games, and profit-sharing to revolutionize DeFi"
         />
         <meta name="theme-color" content="#15EEDD" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="https://usdog.fi/logo.png" />
-        <meta name="twitter:title" content="MermaidSwap - Gaming and Rewards DeFi" />
+        <meta name="twitter:title" content="USDog - Gaming and Rewards DeFi" />
         <meta
           name="twitter:description"
-          content="MermaidSwap combines a decentralized exchange(DEX), fun games, and profit-sharing to revolutionize DeFi on KAIA."
+          content="USDog combines a decentralized exchange(DEX), fun games, and profit-sharing to revolutionize DeFi."
         />
-        <title>MermaidSwap</title>
+        <title>USDog</title>
       </Head>
       <DefaultSeo {...SEO} />
 

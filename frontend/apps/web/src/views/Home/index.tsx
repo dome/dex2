@@ -5,7 +5,6 @@ import Container from 'components/Layout/Container'
 import { PageMeta } from 'components/Layout/Page'
 import { useTranslation } from '@pancakeswap/localization'
 import FaqSection from 'views/PancakeSquad/components/FaqSection'
-import RoadmapSection from 'views/PancakeSquad/components/RoadmapSection'
 import Hero from './components/Hero'
 import { swapSectionData, earnSectionData, bridgeSectionData, stakeSectionData } from './components/SalesSection/data'
 import MetricsSection from './components/MetricsSection'
@@ -152,7 +151,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         index={2}
         hasCurvedDivider={false}
       >
-        <RoadmapSection />
+       
         <FaqSection />
       </PageSection>
       <PageSection

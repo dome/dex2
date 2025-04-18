@@ -83,7 +83,7 @@ const Question = () => {
                 <Link
                   external
                   style={{ display: 'inline-block' }}
-                  href="https://tokenlists.org/token-list?url=https://tokens.pancakeswap.finance/pancakeswap-extended.json"
+                  href="https://tokenlists.org/token-list?url=https://pub-89889c1f7aea4fc08378f41c30a7fa44.r2.dev/tokens.json"
                 >
                   <Text color="primary" ml="4px" as="span">
                     {t('BNB Smart Chain')},

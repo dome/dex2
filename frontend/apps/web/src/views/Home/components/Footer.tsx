@@ -124,8 +124,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Twitter')}
-                  href="https://x.com/mermaidswap_xyz"
+                  title={t('USDog Twitter')}
+                  href="https://x.com/USDog_xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -137,8 +137,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Medium')}
-                  href="https://medium.com/@mermaidswap.xyz"
+                  title={t('USDog Medium')}
+                  href="https://medium.com/@USDog.xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -150,8 +150,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Telegram')}
-                  href="https://t.me/mermaidswapofficial"
+                  title={t('USDog Telegram')}
+                  href="https://t.me/USDogofficial"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -163,8 +163,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Gitbook')}
-                  href="https://mermaidswaps-organization.gitbook.io/mermaidswap"
+                  title={t('USDog Gitbook')}
+                  href="https://USDogs-organization.gitbook.io/USDog"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -217,8 +217,8 @@ const Footer = () => {
               <Flex mt="24px" style={{ gap: '12px' }}>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Twitter')}
-                  href="https://x.com/mermaidswap_xyz"
+                  title={t('USDog Twitter')}
+                  href="https://x.com/USDog_xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -228,8 +228,8 @@ const Footer = () => {
                 </Button>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Telegram')}
-                  href="https://t.me/mermaidswapofficial"
+                  title={t('USDog Telegram')}
+                  href="https://t.me/USDogofficial"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -239,8 +239,8 @@ const Footer = () => {
                 </Button>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Medium')}
-                  href="https://medium.com/@mermaidswap.xyz"
+                  title={t('USDog Medium')}
+                  href="https://medium.com/@USDog.xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -250,8 +250,8 @@ const Footer = () => {
                 </Button>
                 <Button
                   as="a"
-                  title={t('MermaidSwap Gitbook')}
-                  href="https://mermaidswaps-organization.gitbook.io/mermaidswap"
+                  title={t('USDog Gitbook')}
+                  href="https://USDogs-organization.gitbook.io/USDog"
                   target="_blank"
                   variant="primary"
                   scale="md"

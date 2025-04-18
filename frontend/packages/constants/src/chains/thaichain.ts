@@ -4,7 +4,7 @@ export const thaichain: IceChain = {
   id: 7,
   name: 'ThaiChain',
   features: ['swap'],
-  network: 'celo',
+  network: 'tch',
   rpcUrls: {
     public: { http: ['https://rpc.dome.cloud',] },
     default: { http: ['https://rpc.dome.cloud',] },

@@ -28,12 +28,13 @@ export default function Navbar() {
       </div>
 
       <div className="hidden md:flex items-center space-x-4">
-        <Button variant="ghost" className="text-white hover:text-yellow-400">
-          Connect Wallet
-        </Button>
-        <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-medium">Launch App</Button>
-      </div>
 
+        <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-medium" asChild>
+          <Link href="https://app.usdog.fi" target="_blank" rel="noopener noreferrer">
+            Launch App
+          </Link>
+        </Button>
+      </div>
       <Button variant="ghost" size="icon" className="md:hidden text-white">
         <Menu className="w-6 h-6" />
       </Button>
