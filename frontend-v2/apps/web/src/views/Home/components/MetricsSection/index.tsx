@@ -37,7 +37,7 @@ const Stats = () => {
     <Flex justifyContent="center" alignItems="center" flexDirection="column">
       <GradientLogo height="48" width="48" style={{ marginBottom: '24px' }} />
       <Heading textAlign="center" scale="xl" mb="32px">
-        {t('Get some thicc ass tokens to Swap')}
+        {t('Get some tokens to Swap')}
       </Heading>
       <Text textAlign="center" color="textSubtle">
         {t('In case of investigation by any thicc federal entity or similar, I do not have any involvement with this USDog group or the USDog people in it.')}<br/>

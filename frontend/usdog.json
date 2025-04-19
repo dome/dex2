@@ -1,0 +1,38 @@
+{
+  "name": "USDOG Token List",
+  "timestamp": "2025-01-05T11:25:09Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://pub-342ce05f8c5b4300ab7c27ca786bf688.r2.dev/usdog.png",
+  "keywords": ["usdog", "extended"],
+  "tokens": [
+   {
+            "name": "USDOG Token",
+            "symbol": "USDOG",
+            "address": "0xddddddd48B83EC002970069FA6B7d332339263e7",
+            "chainId": 1190,
+            "decimals": 18,
+            "logoURI": "https://pub-342ce05f8c5b4300ab7c27ca786bf688.r2.dev/usdog.png"
+    },
+      {
+            "name": "LIZA COIN",
+            "symbol": "LIZA",
+            "address": "0x7D9BF045EE1C0E34041Ac8982cbfF309011f0966",
+            "chainId": 1190,
+            "decimals": 18,
+            "logoURI": "https://pub-342ce05f8c5b4300ab7c27ca786bf688.r2.dev/lizacoin.png"
+    },
+      {
+            "name": "wBCT Token",
+            "symbol": "WBCT",
+            "address": "0x056330231aEc71fC430F27b527282B0402aEA819",
+            "chainId": 1190,
+            "decimals": 18,
+            "logoURI": "https://pub-342ce05f8c5b4300ab7c27ca786bf688.r2.dev/bct.png"
+    }
+  ]
+}

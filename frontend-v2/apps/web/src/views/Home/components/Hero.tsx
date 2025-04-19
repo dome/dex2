@@ -135,7 +135,7 @@ const Hero = () => {
             {t('Welcome to USDOG Swap')}
           </Heading>
           <Heading as="p" scale="md" mb="24px">
-            {t('The thiccest DEX on matsnet. Swap tokens at the worst rates.')}
+            {t('The DEX on bctchain. Swap tokens at the worst rates.')}
           </Heading>
           <Flex>
             <NextLinkFromReactRouter to="/swap">

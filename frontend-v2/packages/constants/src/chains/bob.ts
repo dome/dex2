@@ -1,45 +1,45 @@
 import IceChain from '../ice-chain'
 
 export const bob: IceChain = {
-  id: 31611,
-  name: 'Mezo',
-  features: ['swap', 'info'],
-  network: 'mezo',
+  id: 1190,
+  name: 'BCTChain',
+  features: ['swap'],
+  network: 'bct',
   rpcUrls: {
-    public: { http: ['https://rpc.test.mezo.org',] },
-    default: { http: ['https://rpc.test.mezo.org',] },
+    public: { http: ['https://rpc.bctchain.com',] },
+    default: { http: ['https://rpc.bctchain.com',] },
   },
   blockExplorers: {
-    default: { name: 'Mezo Explorer', url: 'https://explorer.test.mezo.org' },
+    default: { name: 'BCT Explorer', url: 'https://explorer.bctchain.com' },
   },
   nativeCurrency: {
-    name: 'Bitcoin',
-    symbol: 'BTC',
+    name: 'BCT',
+    symbol: 'BCT',
     decimals: 18,
   },
   contracts: {
     multicall3: {
-      address: '0x474bAbC4b6595D5BDfbbeEdA558CA36114a0E7f7',
-      blockCreated: 625968,
+      address: '0x6573b90D1b24Dd1740F4fecCecb49b674A118B47',
+      blockCreated: 3408875,
     },
   },
   blockInterval: 2,
   wrappedNative: {
-    address: '0xA460F83cdd9584E4bD6a9838abb0baC58EAde999',
+    address: '0x056330231aEc71fC430F27b527282B0402aEA819',
     decimals: 18,
-    symbol: 'wtBTC',
-    name: 'Wrapped Test BTC',
+    symbol: 'wBCT',
+    name: 'Wrapped BCT',
   },
   stableToken: {
-    address: '0x637e22A1EBbca50EA2d34027c238317fD10003eB',
+    address: '0xddddddd48B83EC002970069FA6B7d332339263e7',
     decimals: 18,
-    symbol: 'mUSD',
-    name: 'mUSD',
+    symbol: 'USDDOG',
+    name: 'USDOG',
   },
   swap: {
-    factoryAddress: "0xB27fEFF52c463602aA9d939dc090B46439134119",
-    initCodeHash: "0x246ba35fa37fb6bf3b71cd68dd22514e93a5d804976bfd9895b26b4434adb34d",
-    routerAddress: "0xe3eB6Aa5CFB0BdA17C22128A58830EBC8Ecb74C3",
+    factoryAddress: "0x4631C59413A0240f902EE5AB89E6065004809F12",
+    initCodeHash: "0x0437378fc27e93c612c5c385779bf540ca2064b54705e48c313aa216da380100",
+    routerAddress: "0x4a2250175C556536a4C65ba10C00A996E2BcA690",
   },
-  smartRouterAddress: '0x5285cDC812ef880D259C30D1EC8A625791D15240',
+  smartRouterAddress: '0x6c086b4365aC75d71b6be2572e615210B2919220',
 }

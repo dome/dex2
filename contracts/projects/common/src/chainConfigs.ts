@@ -406,7 +406,7 @@ const chainConfigs = {
     oneDollarInNative: "40000000000000000",
     weth: "0x5555555555555555555555555555555555555555"
   },
-    thaichain: {
+  thaichain: {
     chainId: 7,
     url: "https://rpc.dome.cloud",
     explorer: "https://exp.thaichain.org/",
@@ -415,6 +415,16 @@ const chainConfigs = {
     bridgeDomainId: -1,
     oneDollarInNative: "100000000000000000",
     weth: "0x67a11f6Ea5352F58FEbF580F7E84E33405638c1C"
+  },
+  bct: {
+    chainId: 1190,
+    url: "https://rpc.bctchain.com",
+    explorer: "https://exp.bctchain.com/",
+    explorerApi: "https://exp.bctchain.com/api",
+    explorerApiKey: "NoKeyRequired",
+    bridgeDomainId: -1,
+    oneDollarInNative: "100000000000000000",
+    weth: "0x056330231aEc71fC430F27b527282B0402aEA819"
   },
   
 
