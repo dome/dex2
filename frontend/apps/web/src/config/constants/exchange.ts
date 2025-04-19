@@ -1,5 +1,5 @@
 import { ChainId, Percent, Token, WETH9 } from '@pancakeswap/sdk'
-import { coreTokens, USD, ICE, bobaTokens, tchTokens, bscTokens} from '@pancakeswap/tokens'
+import { coreTokens, USD, ICE, bobaTokens } from '@pancakeswap/tokens'
 import { chains } from '@icecreamswap/constants'
 import { ChainMap, ChainTokenList } from './types'
 
@@ -34,7 +34,6 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   }, {}),
   [ChainId.CORE]: [coreTokens.wcore, coreTokens.wcore_old, coreTokens.score, coreTokens.ice, coreTokens.usdt, coreTokens.usdtl0],
   [ChainId.BOBA]: [bobaTokens.weth, bobaTokens.ice, bobaTokens.usdt, bobaTokens.boba, bobaTokens.usdc],
-  [ChainId.TCH]: [tchTokens.usdog,tchTokens.weth],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {

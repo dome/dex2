@@ -124,8 +124,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('USDog Twitter')}
-                  href="https://x.com/USDog_xyz"
+                  title={t('UsdogSwap Twitter')}
+                  href="https://x.com/UsdogSwap_xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -137,8 +137,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('USDog Medium')}
-                  href="https://medium.com/@USDog.xyz"
+                  title={t('UsdogSwap Medium')}
+                  href="https://medium.com/@UsdogSwap.xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -150,8 +150,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('USDog Telegram')}
-                  href="https://t.me/USDogofficial"
+                  title={t('UsdogSwap Telegram')}
+                  href="https://t.me/UsdogSwapofficial"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -163,8 +163,8 @@ const Footer = () => {
               <Flex style={{ width: '100%' }}>
                 <Button
                   as="a"
-                  title={t('USDog Gitbook')}
-                  href="https://USDogs-organization.gitbook.io/USDog"
+                  title={t('UsdogSwap Gitbook')}
+                  href="https://UsdogSwaps-organization.gitbook.io/UsdogSwap"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -217,8 +217,8 @@ const Footer = () => {
               <Flex mt="24px" style={{ gap: '12px' }}>
                 <Button
                   as="a"
-                  title={t('USDog Twitter')}
-                  href="https://x.com/USDog_xyz"
+                  title={t('UsdogSwap Twitter')}
+                  href="https://x.com/UsdogSwap_xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -228,8 +228,8 @@ const Footer = () => {
                 </Button>
                 <Button
                   as="a"
-                  title={t('USDog Telegram')}
-                  href="https://t.me/USDogofficial"
+                  title={t('UsdogSwap Telegram')}
+                  href="https://t.me/UsdogSwapofficial"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -239,8 +239,8 @@ const Footer = () => {
                 </Button>
                 <Button
                   as="a"
-                  title={t('USDog Medium')}
-                  href="https://medium.com/@USDog.xyz"
+                  title={t('UsdogSwap Medium')}
+                  href="https://medium.com/@UsdogSwap.xyz"
                   target="_blank"
                   variant="primary"
                   scale="md"
@@ -250,8 +250,8 @@ const Footer = () => {
                 </Button>
                 <Button
                   as="a"
-                  title={t('USDog Gitbook')}
-                  href="https://USDogs-organization.gitbook.io/USDog"
+                  title={t('UsdogSwap Gitbook')}
+                  href="https://UsdogSwaps-organization.gitbook.io/UsdogSwap"
                   target="_blank"
                   variant="primary"
                   scale="md"

@@ -34,10 +34,9 @@ import { berachainTestnet } from "./berachainTestnet"
 import { bitfinitymainnet } from "./bitfinitymainnet"
 import { kaiamainnet } from "./kaiamainnet"
 import { sonicmainnet } from "./sonicmainnet"
-import { thaichain } from "./thaichain"
+import { bct } from "./bct"
 
 export const chainMap = {
-  thaichain,
   core,
   bsc,
   bob,
@@ -73,7 +72,8 @@ export const chainMap = {
   stratovmTestnet,
   bitfinitytestnet,
   ternoatestnet,
-  berachainTestnet
+  berachainTestnet,
+  bct
 }
 export const chains = Object.values(chainMap)
 
@@ -116,7 +116,7 @@ export enum ChainId {
   LINEA = linea.id,
   BERACHAIN_TEST = berachainTestnet.id,
   KAIA = kaiamainnet.id,
-  TCH = thaichain.id,
+  BCT = bct.id
 }
 
-export const defaultChainId = ChainId.TCH
+export const defaultChainId = ChainId.BCT

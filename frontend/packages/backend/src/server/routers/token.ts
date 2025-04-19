@@ -132,7 +132,7 @@ export const tokenRouter = router({
           address: token.address,
           chainId: token.chainId,
           decimals: token.decimals,
-          logoURI: `https://${process.env.S3_BUCKET_NAME}.s3.amazonaws.com/token/${token.chainId}/${token.address}.png`,
+          logoURI: `https://pub-be1e9ad6ae1749398cdf2c4efd62d2eb.r2.dev/${token.chainId}-${token.address}.png`,
           tags: token.tags || [],
         })),
       }

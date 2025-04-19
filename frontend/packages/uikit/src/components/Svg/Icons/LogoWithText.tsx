@@ -6,8 +6,8 @@ import { vars } from "../../../css/vars.css";
 const Logo: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {
   return (
     <div {...props} style={{ alignItems: "center", ...props.style }}>
-      <img src="/images/icecream.png" alt="USDog" width="32px" style={{ verticalAlign: "middle" }} />
-      <span style={{ verticalAlign: "middle", fontSize: "1.2rem", fontWeight: "bold" }}>USDog</span>
+      <img src="/images/icecream.png" alt="UsdogSwap" width="32px" style={{ verticalAlign: "middle" }} />
+      <span style={{ verticalAlign: "middle", fontSize: "1.2rem", fontWeight: "bold" }}>UsdogSwap</span>
     </div>
   );
 

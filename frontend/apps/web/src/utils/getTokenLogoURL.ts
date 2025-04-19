@@ -8,7 +8,7 @@ import { TOKEN_LOGO_S3_BUCKET_NAME } from '@icecreamswap/constants';
 const getTokenLogoURL = memoize(
   (token?: Token) => {
     if (token && token.address && chainName[token.chainId]) {
-      return `https://${TOKEN_LOGO_S3_BUCKET_NAME}.s3.amazonaws.com/token/${token.chainId}/${getAddress(token.address)}.png`
+      return `https://pub-be1e9ad6ae1749398cdf2c4efd62d2eb.r2.dev/${token.chainId}-${getAddress(token.address)}.png`
     }
 
     /*

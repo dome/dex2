@@ -5,6 +5,7 @@ import Container from 'components/Layout/Container'
 import { PageMeta } from 'components/Layout/Page'
 import { useTranslation } from '@pancakeswap/localization'
 import FaqSection from 'views/PancakeSquad/components/FaqSection'
+import RoadmapSection from 'views/PancakeSquad/components/RoadmapSection'
 import Hero from './components/Hero'
 import { swapSectionData, earnSectionData, bridgeSectionData, stakeSectionData } from './components/SalesSection/data'
 import MetricsSection from './components/MetricsSection'
@@ -94,22 +95,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
       >
         <MetricsSection />
       </PageSection> */}
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.background}
-        containerProps={{
-          id: 'home-4',
-        }}
-        index={2}
-        hasCurvedDivider={false}
-      >
-        <OuterWedgeWrapper>
-          <InnerWedgeWrapper top>
-            <WedgeTopLeft />
-          </InnerWedgeWrapper>
-        </OuterWedgeWrapper>
-        <SalesSection {...swapSectionData(t)} />
-      </PageSection>
+
       {/* <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.backgroundAlt}
@@ -123,37 +109,9 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         </OuterWedgeWrapper>
         <SalesSection {...bridgeSectionData(t)} />
       </PageSection> */}
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.gradientCardHeader}
-        index={2}
-        hasCurvedDivider={false}
-      >
-        <OuterWedgeWrapper>
-          <WedgeTopRight />
-        </OuterWedgeWrapper>
-        <SalesSection {...earnSectionData(t)} reverse />
-      </PageSection>
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.gradientCardHeader}
-        index={2}
-        hasCurvedDivider={false}
-      >
-        <OuterWedgeWrapper>
-          <WedgeTopRight />
-        </OuterWedgeWrapper>
-        <SalesSection {...stakeSectionData(t)} />
-      </PageSection>
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        background={theme.colors.background}
-        index={2}
-        hasCurvedDivider={false}
-      >
-       
-        <FaqSection />
-      </PageSection>
+
+
+
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)"

@@ -1,12 +1,12 @@
-# 🍦 USDog Frontend
+# 🍦 UsdogSwap Frontend
 
 <p align="center">
   <a href="https://icecreamswap.com">
-      <img src="https://usdog.fi/logo.png" height="128">
+      <img src="https://UsdogSwapxyz.com/logo.png" height="128">
   </a>
 </p>
 
-This project contains the main features of the USDog website.
+This project contains the main features of the UsdogSwap website.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 

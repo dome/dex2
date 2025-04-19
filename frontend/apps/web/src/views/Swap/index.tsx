@@ -94,28 +94,6 @@ export default function Swap() {
 
   return (
     <Page removePadding={isChartExpanded} hideFooterOnDesktop={isChartExpanded}>
-      {isConnectedAndHasNoBalance && (
-        <Message variant="info" mb="16px">
-          <span>
-            {t("It looks like you don't have any %chain% tokens. Simply", {chain: chainName[walletChainId]})}{' '}
-            <Link href="/bridge" display="inline-flex">
-              {t('bridge')}
-            </Link>{' '}
-            {t('any token to %chain% and recieve a free gasdrop.', {chain: chainName[walletChainId]})}
-          </span>
-        </Message>
-      )}
-      {isOldWcore && (
-        <Message variant="warning" mb="16px">
-          <span>
-            {t("It looks like you still use our old WCORE. Simply unwrap it by")}{' '}
-            <Link href="/swap?chain=core&inputCurrency=0x40375C92d9FAf44d2f9db9Bd9ba41a3317a2404f&outputCurrency=CORE" display="inline-flex">
-              {t("\"swapping\"")}
-            </Link>{' '}
-            {t('it to CORE.')}
-          </span>
-        </Message>
-      )}
       <Flex width={['328px', '100%']} height="100%" justifyContent="center" position="relative" alignItems="flex-start">
         {isDesktop && isChartSupported && (
           <PriceChartContainer

@@ -84,17 +84,17 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
         />
         <meta
           name="description"
-          content="USDog combines a Decentralized Exchange(DEX), fun games, and profit-sharing to revolutionize DeFi"
+          content="UsdogSwap combines a Decentralized Exchange(DEX), fun games, and profit-sharing to revolutionize DeFi on KAIA."
         />
         <meta name="theme-color" content="#15EEDD" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="https://usdog.fi/logo.png" />
-        <meta name="twitter:title" content="USDog - Gaming and Rewards DeFi" />
+        <meta name="twitter:image" content="https://UsdogSwapxyz.com/logo.png" />
+        <meta name="twitter:title" content="UsdogSwap - Gaming and Rewards DeFi" />
         <meta
           name="twitter:description"
-          content="USDog combines a decentralized exchange(DEX), fun games, and profit-sharing to revolutionize DeFi."
+          content="UsdogSwap combines a decentralized exchange(DEX), fun games, and profit-sharing to revolutionize DeFi on KAIA."
         />
-        <title>USDog</title>
+        <title>UsdogSwap</title>
       </Head>
       <DefaultSeo {...SEO} />
 
@@ -104,7 +104,7 @@ function MyApp(props: AppProps<{ initialReduxState: any }>) {
           // @ts-ignore
           <Component.Meta {...pageProps} />
         )}
-        <SupportedChainsProvider supportedChains={(props as AppPropsWithLayout).Component.chains || CHAIN_IDS}>
+        <SupportedChainsProvider supportedChains={[ChainId.KAIA,ChainId.BCT]}>
           <Blocklist>
             {(Component as NextPageWithLayout).mp ? <MPGlobalHooks /> : <GlobalHooks />}
             <ResetCSS />

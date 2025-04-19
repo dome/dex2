@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { ChainId } from '@pancakeswap/sdk'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { styled, keyframes } from 'styled-components'
-import hero from '../../../../public/images/home/usdog_defi_2.jpeg'
+import hero from '../../../../public/images/home/hero-home.png'
 import CompositeImage, { CompositeImageProps } from './CompositeImage'
 import { SlideSvgDark, SlideSvgLight } from './SlideSvg'
 import starL from '../../../../public/images/home/lunar-bunny/star-l.png'
@@ -132,11 +132,11 @@ const Hero = () => {
       >
         <Flex flex="1" flexDirection="column">
           <Heading as="h1" scale="xxl" color="secondary" mb="24px">
-            {t('Welcome to USDog')}
+            {t('Welcome to UsdogSwap')}
           </Heading>
           <Heading as="p" scale="md" mb="24px">
             {t(
-              'Revolutionizing DeFi with a unique blend of gaming, decentralized trading, and profit-sharing',
+              'Revolutionizing DeFi with a unique blend of gaming, decentralized trading, and profit-sharing on $KAIA Chain',
             )}
           </Heading>
           <Flex>

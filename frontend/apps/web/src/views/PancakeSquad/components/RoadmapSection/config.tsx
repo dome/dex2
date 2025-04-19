@@ -7,20 +7,20 @@ type FAQsType = {
 const config = ({ t }: FAQsType) => [
   {
     icon: '🚀',
-    title: t('USDog dApp + NFT Launching'),
+    title: t('UsdogSwap dApp + NFT Launching'),
     description: [
-      t('USDog Dex launching'),
+      t('UsdogSwap Dex launching'),
       t('Farm launching'),
       t('Launchpad Launching'),
-      t('USDog NFT Launching'),
-      t('USDog NFT DAO Establishment'),
-      t('USDog NFT Game Launching'),
-      t('USDog Mobile Game Development'),
+      t('UsdogSwap NFT Launching'),
+      t('UsdogSwap NFT DAO Establishment'),
+      t('UsdogSwap NFT Game Launching'),
+      t('UsdogSwap Mobile Game Development'),
     ],
     reached: 'Q1 2025',
   },
   {
-    title: t('USDog Mobile Game'),
+    title: t('UsdogSwap Mobile Game'),
     icon: '‍📱',
     description: [
       t('Mobile Game Beta Test'),

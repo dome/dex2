@@ -32,7 +32,8 @@
     "clean": "turbo run clean && rm -rf node_modules",
     "changeset": "changeset",
     "version-packages": "changeset version && pnpm i --lockfile-only",
-    "release-packages": "turbo run build --filter=./packages/* && changeset version && changeset publish"
+    "release-packages": "turbo run build --filter=./packages/* && changeset version && changeset publish",
+    "prepare": "husky install"
   },
   "engines": {
     "node": ">=18.20.0 <21.0.0"
